@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&family=Quicksand:wght@300&display=swap');
+
+.mainContainer {
+    /* border: 1px solid; */
+    height: 99vh;
+    width: 25%;
+    position: sticky;
+    overflow-y: scroll;
+}
+
+.imageContainer {
+    height: 20%;
+    width: 67%;
+    margin: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imageContainer img {
+    border-radius: 100px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+.portFolio-container {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    height: 30%;
+}
+
+.link-container {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.link-container ul {
+    /* border: 1px solid; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.link-container ul li {
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(139 139 139 / 70%);
+}
+
+p:nth-child(2) {
+    font-size: 11px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+p:nth-child(3) {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    /* width: 126%; */
+}
